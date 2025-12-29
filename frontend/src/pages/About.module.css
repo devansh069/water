@@ -1,0 +1,173 @@
+.pageContainer {
+  background-image: linear-gradient(to bottom, var(--background-gradient-start), var(--background-gradient-end));
+  padding: 2rem 1rem;
+}
+
+.section {
+  max-width: 1100px;
+  margin: 0 auto 2.5rem auto;
+  padding: 3rem 2rem;
+  background-color: var(--card-background-color);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.07);
+}
+
+.hero {
+  background: 
+    linear-gradient(rgba(15, 76, 129, 0.7), rgba(30, 136, 229, 0.5)),
+    url('https://images.unsplash.com/photo-1556742514-f59a3c5784a1?q=80&w=1470&auto=format&fit=crop') center/cover no-repeat;
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.mainHeading {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.5rem;
+  color: white;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+}
+
+.introText {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.sectionTitle {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 2.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.problemItem {
+  text-align: center;
+}
+
+.problemIcon {
+  font-size: 3rem;
+  color: var(--accent-color);
+  margin-bottom: 1rem;
+}
+
+.problemItem h3 {
+  font-size: 1.4rem;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0.5rem;
+  color: var(--heading-color);
+}
+
+.solutionSection {
+  text-align: center;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.solutionSection .sectionTitle {
+  color: white;
+}
+
+.solutionText {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.flow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.flowStep {
+  background-color: #f1faff;
+  border: 1px solid var(--border-color);
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-weight: 600;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.flowStep span {
+  background-color: var(--accent-color);
+  color: white;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+}
+
+.flowArrow {
+  font-size: 2rem;
+  color: var(--secondary-color);
+}
+
+.impactCard {
+  background-color: var(--background-gradient-end);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  border: 1px solid var(--border-color);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.impactCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.impactCard h3 {
+  font-size: 1.3rem;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.visionSection {
+  text-align: center;
+}
+
+.visionText {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.disclaimerSection {
+  background-color: #fffbeb;
+  border: 1px solid var(--warning-color);
+  text-align: center;
+}
+
+.disclaimerSection .sectionTitle {
+  color: #b45309;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  background: none;
+  box-shadow: none;
+}

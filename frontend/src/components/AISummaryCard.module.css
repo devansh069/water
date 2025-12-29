@@ -1,0 +1,75 @@
+.card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.07);
+  overflow: hidden;
+  margin-bottom: 2rem;
+  border-left: 8px solid;
+  transition: all 0.3s ease;
+}
+
+.overviewHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.overviewStatus {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  gap: 8px;
+}
+
+.confidenceScore {
+  font-size: 1rem;
+  color: #6c757d;
+  font-weight: 500;
+}
+
+.overviewVerdict {
+  padding: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #343a40;
+  line-height: 1.5;
+}
+
+.footer {
+  padding: 0.75rem 1.5rem;
+  background-color: #f8f9fa;
+  text-align: right;
+  font-size: 0.8rem;
+  color: #6c757d;
+  font-style: italic;
+  border-top: 1px solid #e9ecef;
+}
+
+/* Status Color Coding */
+.statusGood {
+  border-left-color: #28a745; /* Green */
+}
+
+.statusGood .overviewStatus {
+  color: #28a745;
+}
+
+.statusModerate {
+  border-left-color: #ffc107; /* Yellow */
+}
+
+.statusModerate .overviewStatus {
+  color: #ffc107;
+}
+
+.statusPoor {
+  border-left-color: #dc3545; /* Red */
+}
+
+.statusPoor .overviewStatus {
+  color: #dc3545;
+}

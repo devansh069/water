@@ -1,0 +1,37 @@
+.aiPanel {
+    background-color: #eaf8ff;
+    border-radius: 12px;
+    padding: 24px;
+    margin-top: 24px;
+    border: 1px solid #bde0fe;
+}
+
+.panelTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #007bff;
+    margin-bottom: 16px;
+}
+
+.summaryText {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.confidence {
+    font-weight: 600;
+}
+
+.poweredBy {
+    font-style: italic;
+}

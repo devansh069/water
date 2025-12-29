@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@700&family=Roboto:wght@400&display=swap');
+
+:root {
+  --primary-color: #0F4C81;
+  --secondary-color: #1E88E5;
+  --accent-color: #4FC3F7;
+  --success-color: #2ECC71;
+  --warning-color: #F4D03F;
+  --danger-color: #E74C3C;
+  --background-gradient-start: #E3F2FD;
+  --background-gradient-end: #F1FAFF;
+  --card-background-color: #ffffff;
+  --text-color: #343a40;
+  --heading-color: #212529;
+  --border-color: #dee2e6;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-image: linear-gradient(to bottom, var(--background-gradient-start), var(--background-gradient-end));
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color);
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 600;
+}
+
+button:hover {
+  background: linear-gradient(to right, var(--secondary-color), var(--accent-color));
+}
+
+button:disabled {
+  background-color: var(--secondary-color);
+  cursor: not-allowed;
+}
